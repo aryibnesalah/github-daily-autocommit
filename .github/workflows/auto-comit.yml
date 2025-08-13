@@ -2,9 +2,9 @@ name: Daily Auto Commit
 
 on:
   schedule:
-    # Runs at 01:00 AM UTC every day
+    # Runs at 10:00 AM UTC every day
     # Adjust the time as needed (format: minute hour * * *)
-    - cron: '0 1 * * *'
+    - cron: '0 10 * * *'
   
   # Allows manual triggering from GitHub Actions tab
   workflow_dispatch:
